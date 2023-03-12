@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px) {
+    body{
+        padding: 1%;
+    }
+    .search {
+        display: flex;
+        height: 30px;
+        /* width: fit-content;  */
+        margin: 0 0vw;
+        position: relative;
+        right: 4vw;
+    }
+    nav ul li{
+        padding: 1%;
+    }
+    footer font{
+        display: flex;
+        font-size: 15px;
+    }
+    .right a img{
+        width: fit-content;
+        height: 2vh;
+        width: auto;
+    }
+    .white{
+        height:4vh;
+    }
+    footer a img{
+        
+        position: relative;
+        bottom: 1vh;
+        right: 2vw;
+        
+    }
+    footer{
+        height: 10vh;
+    }
+    footer a{
+        text-decoration: none;
+    }
+
+}

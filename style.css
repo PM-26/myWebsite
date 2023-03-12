@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: hsl(0, 0%, 0%);
+    overflow-x: hidden;
+  }
+  
+  
+  .red {
+    color: red;
+  }
+  
+  .orange {
+    color: orange;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  
+  .right {
+    float: right;
+  }
+  
+  nav {
+    color: white;
+    height: 7vh;
+    padding: 3vh 0vw;
+    display:flex;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .snowball {
+    border: 1vh solid white;
+  }
+  
+  header {
+    position: sticky;
+    top: 1vh;
+    background-color: blanchedalmond;
+    height: 80px;
+  }
+  
+  nav ul li {
+    padding: 1vh 5vw;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .none {
+    text-decoration: none;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateX(-10);
+    }
+  
+    100% {
+      transform: translate(10vw);
+    }
+  }
+  
+  .animate1 {
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  .animate2 {
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  
+  .center {
+    margin: auto;
+    width: 50%;
+  }
+  .flexAllCenter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Asset&display=swap');
+  
+  
+  
+  main{
+    font-family: 'Rubik Gemstones', cursive;
+  }
+  footer{
+    font-family: 'Rubik Gemstones', cursive;
+    height: 4vh;
+  }
+  header{
+    font-family: 'Asset', cursive;
+  
+  
+  }
+  
+  /* .scroll{
+    min-height: calc(100vh - 70px - 4vh);
+  } */
+  
+  nav ul a li:hover{
+    color: blue;
+    font-weight: bolder;
+  }
+  
+  .search{
+    display:flex;
+    height: 30px; 
+    margin: 0 40vw
+  }
+  
+  .search input{
+    border-radius: 12px;
+    margin: 0vh 0vw;
+    padding: 1vw;
+  }
+  
+  .image{
+    padding: 2vh 2vw;
+  }
+  
+  footer a{
+    text-decoration: none;
+    
+  }
+  
+  footer a img{
+          
+    position: relative;
+    bottom: 0vh;
+    right: 2vw;
+    top: 0vh;
+  }
+    
