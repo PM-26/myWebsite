@@ -149,9 +149,9 @@
   footer a img{
           
     position: relative;
-    bottom: 0vh;
+    bottom: 1vh;
     right: 2vw;
-    top: 0vh;
+    top: 1vh;
   }
   
   .f-padding{
