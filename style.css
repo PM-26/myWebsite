@@ -126,7 +126,9 @@
   .search{
     display:flex;
     height: 30px; 
-    margin: 0 40vw
+    margin: 0 40vw;
+    background-color: black;
+    color: white;
   }
   
   .search input{
