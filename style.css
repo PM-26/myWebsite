@@ -48,9 +48,9 @@
   
   header {
     position: sticky;
-    top: 1vh;
+    top: 0vh;
     background-color: rgb(255, 255, 255);
-    height: 80px;
+    height: 85px;
   }
   
   nav ul li {
