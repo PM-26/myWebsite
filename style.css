@@ -50,7 +50,7 @@
     position: sticky;
     top: 0vh;
     background-color: rgb(255, 255, 255);
-    height: 85px;
+    height: 95px;
   }
   
   nav ul li {
@@ -125,14 +125,14 @@
   
   .search{
     display:flex;
-    height: 30px; 
-    margin: 0 40vw;
+    height: 40px; 
+    margin: 1vh 40vw;
     background-color: black;
     color: white;
   }
   
   .search input{
-    border-radius: 12px;
+    border-radius: 2px;
     margin: 0vh 0vw;
     padding: 1vw;
   }
@@ -153,4 +153,7 @@
     right: 2vw;
     top: 0vh;
   }
-    
+  
+  .f-padding{
+    padding-left: 2vw;
+  }
