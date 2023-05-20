@@ -19,7 +19,7 @@
     }
     .right a img{
         width: fit-content;
-        height: 2vh;
+        height: 5vh;
         width: auto;
     }
     .white{
@@ -27,16 +27,20 @@
     }
     footer a img{
         
-        position: relative;
+        position:relative;
         bottom: 1vh;
         right: 2vw;
         
     }
-    footer{
-        height: 10vh;
-    }
     footer a{
         text-decoration: none;
+    }
+    .f-images{
+        position: relative;
+        bottom: 4vh;
+    }
+    footer{
+        height: 10px;
     }
 
 }
