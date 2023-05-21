@@ -149,11 +149,20 @@
   footer a img{
           
     position: relative;
-    bottom: 1vh;
     right: 2vw;
     top: 1vh;
+    left: 75vh;
   }
   
   .f-padding{
     padding-left: 2vw;
+  }
+
+  footer .left{
+    position: relative;
+    top: 3.5vh;
+  }
+  footer .right{
+    position: relative;
+    bottom: 3.5vh;
   }
