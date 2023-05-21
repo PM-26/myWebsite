@@ -7,6 +7,7 @@
   <title>PM</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="responsive.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 </head>
 
@@ -24,8 +25,8 @@
           <li><img src="https://www.pngall.com/wp-content/uploads/9/Black-Star-PNG-File.png" width="40vw">Contact</li>
         </a>
       </ul>
-      <div class="search">
-        <input type="search" placeholder="Hmm?" class="search">
+      <div class="right">
+        <input type="search" class="search">
       </div>
     </nav>
   </header>
@@ -36,11 +37,8 @@
       <center>
         <font size="100vw">
           <div class="animate1">
-            <b>Hey!</b>
+            <b id="element">Hey!</b>
             <br>
-          </div>
-          <div class="animate2">
-            Welcome!
           </div>
         </font>
       </center>
@@ -89,6 +87,12 @@
     </div>
   </footer>
   <br>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Hey</i> ', ' Welcome.'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 
 </html>

@@ -63,7 +63,7 @@
     text-decoration: none;
   }
   
-  @keyframes animate {
+  /* @keyframes animate {
     0% {
       transform: translateX(-10);
     }
@@ -71,9 +71,9 @@
     100% {
       transform: translate(10vw);
     }
-  }
+  } */
   
-  .animate1 {
+  /* .animate1 {
     animation-name: animate;
     animation-duration: 2s;
     animation-direction: alternate;
@@ -85,7 +85,7 @@
     animation-duration: 2s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
-  }
+  } */
   
   .center {
     margin: auto;
@@ -123,15 +123,15 @@
     font-weight: bolder;
   }
   
-  .search{
+  .right{
     display:flex;
     height: 40px; 
     margin: 1vh 40vw;
     background-color: black;
-    color: white;
+    color: black;
   }
   
-  .search input{
+  .right input{
     border-radius: 2px;
     margin: 0vh 0vw;
     padding: 1vw;
