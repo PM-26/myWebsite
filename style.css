@@ -151,7 +151,7 @@
     position: relative;
     right: 2vw;
     top: 1vh;
-    left: 75vh;
+    left: 65vh;
   }
   
   .f-padding{
@@ -161,6 +161,7 @@
   footer .left{
     position: relative;
     top: 3.5vh;
+    left: 2vw;
   }
   footer .right{
     position: relative;
