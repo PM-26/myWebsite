@@ -62,8 +62,12 @@
     color: black;
   }
   nav .right{
+    top: 0.8vh;
     position: relative;
     right: 43vw;
+  }
+  .search{
+    border-color: black;
   }
   
   .none {
@@ -182,6 +186,7 @@
   height: 20px;
   width: 20px;
   border-radius: 50%;
+  background-image: url("https://pngimg.com/uploads/cursor/cursor_PNG85.png") !important;
   border-color: aliceblue;
   background-color: red;
   position: absolute;
