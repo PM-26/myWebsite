@@ -148,6 +148,12 @@ nav ul a li:hover {
   margin: 0vh 0vw;
   padding: 1vw;
 }
+#right2 img{
+  height: 9vh;
+  width: auto;
+  position: absolute;
+  right: 27vw;
+}
 
 .image {
   padding: 2vh 2vw;
