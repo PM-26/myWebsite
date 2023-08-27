@@ -7,9 +7,11 @@
   <title>PM</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="responsive.css" rel="stylesheet" type="text/css" />
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <link rel="script" href="script.js">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- fontAwesome -->
+  <script src="https://kit.fontawesome.com/cf1ae8e524.js" crossorigin="anonymous"></script> 
 </head>
 
 <body>
@@ -17,7 +19,7 @@
   <div id="cursor"></div>
   <header>
     <nav>
-      <ul>
+      <ul id="ul">
         <a class="none" href="#">
           <li><img src="https://www.pngall.com/wp-content/uploads/9/Black-Star-PNG-File.png" width="40vw">Home</li>
         </a>
@@ -34,6 +36,7 @@
       <div id="right2">
         <img src="https://wallpapercave.com/wp/wp6034651.jpg" alt="snowball">
       </div>
+      <div class="bars" id="bars"><i class="fa-solid fa-bars fa-beat-fade" style="color: #000000;"></i></div>
     </nav>
   </header>
 
@@ -71,36 +74,14 @@
   </main>
 
   <hr>
+  <hr>
 
   <footer class="white f-padding" id="footer">
-    <!-- LEFT FOOTER -->
-    <div class="left">
-      <font size="5">Made with ♥️ by PM. </font>
-    </div>
-    <!-- RIGHT FOOTER -->
-    <div class="right f-images">
-      <a href="https://www.youtube.com/channel/UCwZXvIgT3mVhjmuJLsAbfPQ" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/YouTube_social_white_square_%282017%29.svg"
-          height="35">
-      </a>
-      <a href="https://www.instagram.com/" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" height="35">
-      </a>
-      <a href="https://twitter.com/_pm2626" target="_blank">
-        <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png"
-          height="35">
-      </a>
-      <a href="https://github.com/PM-26" target="_blank">
-        <img
-          src="https://www.howtogeek.com/wp-content/uploads/2022/08/github_hero_2.jpg?width=1198&trim=1,1&bg-color=000&pad=1,1"
-          height="35">
-      </a>
-    </div>
+    <div>
+      <font size="5">Made with ♥️ by PM. </font> 
     </div>
   </footer>
-
-  <br>
-
+  
   <script>
     var typed = new Typed('#element', {
       strings: ['<i>Hey</i> ', ' Welcome.'],

@@ -39,6 +39,7 @@ nav {
   height: 7vh;
   padding: 3vh 0vw;
   display: flex;
+  overflow: hidden;
 }
 
 nav ul {
@@ -149,6 +150,7 @@ nav ul a li:hover {
   padding: 1vw;
 }
 #right2 img{
+  top: 1vh;
   height: 9vh;
   width: auto;
   position: absolute;
@@ -204,3 +206,13 @@ footer .right {
   position: absolute;
   z-index: 999;
 }
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer div{
+  /* padding: 5vh; */
+  margin-top: 8vh;
+}
+

@@ -5,3 +5,9 @@ document.addEventListener("mousemove",function(e){
     document.querySelector("#cursor").style.top=y+"px";
     document.querySelector("#cursor").style.left=x+"px";
 })
+
+bars=document.getElementById("bars");
+nav=document.getElementById("ul");
+bars.addEventListener("click",()=>{
+    nav.classList.toggle("active");
+})
